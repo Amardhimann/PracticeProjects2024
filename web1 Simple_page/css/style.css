@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 2rem 0;
+    box-sizing: border-box;
+    background-color: #e6fcf5;
+    min-height: 102vh;
+    
+}
+.top_section{
+    margin: 100px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+.image_container,img {
+    width: 300px;
+    height: 200px;
+}
+.image_container{
+    border-radius: 30%;
+    overflow: hidden;
+    text-align: end;
+
+}
+.top_section h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: rgb(12, 12, 28);
+    font-weight: bold;
+  
+
+}
+.highlight{
+    padding: 0rem 1rem;
+    background-color: #ffe066;
+    display: inline-block;
+    border:1px solid #665e41;
+    transition: all 0.3s;
+}
+.highlight:link,
+.highlight:visited{
+    background-color: #ffe066;
+    color: #fff;
+}
+.highlight:hover,
+.highlight:active{
+    background-color:#ccbd82 ;
+    box-shadow:0 0 0 5px rgba(0, 0, 0, 0.006);
+}
+.contant
+{
+    max-width: 900px;
+    margin: auto;
+}
+.top_section h3{
+    text-align: end;
+    font-size: 23px;
+
+}
+.about_section
+{
+    margin-top: 50;
+}
+.about_section h1{
+    font-size: 70px;
+    font-weight: 400 ;
+    margin-bottom: 20px;
+
+}
+.about_section p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.Objective h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.Objective li{
+    margin-bottom: 10px;
+    margin-left: 90px;
+    font-size: 20px;
+    line-height: 30px;
+}
+footer p{
+    margin-top: 50px;
+    margin-bottom: 30 px;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: end;
+    margin-right: 50px;
+}
+footer{
+    margin-bottom: 90px;
+}
+.copyright {
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 100;
+    line-height: 15px;
+}
+.gallery img
+{
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+  
+}
+.gallery{
+    display: flex;
+   margin-left: 850px;
+}
+.photos h1{
+    
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 30px;
+        font-size: 50px;
+        font-weight: 400 ;
+        margin-bottom: 20px;
+        margin-left: 900px;
+}
+.foot-margin{
+    margin-bottom: 4rem !important;
+}
