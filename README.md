@@ -1,5 +1,5 @@
 https://amardhimann.github.io/Practice_projects_2024/web1%20Simple_page
-https://amardhimann.github.io/Practice_projects_2024
+https://amardhimann.github.io/Practice_projects_2024Web2%20Job_Application_form
 https://amardhimann.github.io/Practice_projects_2024
 https://amardhimann.github.io/Practice_projects_2024
 https://amardhimann.github.io/Practice_projects_2024
