@@ -1,5 +1,4 @@
-https://amardhimann.github.io/Practice_projects_2024/
-
+https://amardhimann.github.io/Practice_projects_2024/web1%20Simple_page
 
 
 # PracticeProjects2024
