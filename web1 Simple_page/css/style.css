@@ -139,3 +139,88 @@ footer{
 .foot-margin{
     margin-bottom: 4rem !important;
 }
+@media (max-width:895px){
+    .about_section,
+    .Objective
+    {
+        padding:2.25em ;
+    }
+.top_section{
+    margin: 50px;
+    gap: 20px;
+}
+.about_section p{
+    margin-bottom: -50px;
+    
+}
+}
+
+@media (max-width:768px){
+    .top_section h1 {
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: rgb(12, 12, 28);
+        font-weight: bold;
+      
+    
+    }
+    .about_section p{
+        margin-bottom: -50px;
+        
+    }
+}
+
+@media (max-width:705px){
+    
+    .top_section h1{
+        font-size: 24px;
+    }
+    .about_section h1 ,
+    .Objective h1
+    {
+       
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    }
+    .about_section p{
+        margin-bottom: 10px;
+    }
+    .about_section p{
+        margin-bottom: -50px;
+        
+    }
+}
+@media (max-width:632px){
+    .top_section h1{
+        font-size: 20px;
+    }
+   .image_container, img {
+        width: 248px;
+        height: 170px;
+    }
+    .about_section p{
+        margin-bottom: -50px;
+        
+    }
+}
+@media(max-width:540px){
+
+    .image_container, img {
+        width: 200px;
+        height: 150px;
+    }
+
+}
+
+
+@media(max-width:490px){
+
+    .top_section {
+        margin: 30px;
+        gap: 10px;
+    }
+}
+
+}
