@@ -1,5 +1,5 @@
 1).
-https://amardhimann.github.io/Practice_projects_2024/web1%20Simple_page
+https://amardhimann.github.io/Practice_projects_2024/web1%20Simple_page/css/style.css
 
 2).
 https://amardhimann.github.io/Practice_projects_2024/Web2%20Job_Application_form
