@@ -138,7 +138,7 @@
   
     .form-control {
       padding: 10px;
-      width: 300px;
+      /* width: 300px; */
     }
   
     .login-container h3 {
@@ -156,18 +156,18 @@
   }
   
   /* Small mobile phones (e.g. iPhone 5) */
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 340px) {
     .container {
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 10px;
+      padding: 05px;
     }
   
     .login-container {
-      width: 90%;
-      padding: 10px;
+      width: 61%;
+      padding: 14px;
     }
   
     .form-content {
@@ -197,7 +197,7 @@
   }
 
   /* Extra small screens (e.g. old feature phones) */
-@media only screen and (max-width: 220px) {
+@media only screen and (max-width: 282px) {
     .container {
       height: 100vh;
       display: flex;
@@ -207,8 +207,8 @@
     }
   
     .login-container {
-      width: 95%;
-      padding: 5px;
+      width: 64%;
+      padding: 10px;
     }
   
     .form-content {
@@ -221,6 +221,7 @@
   
     .form-control {
       padding: 2px;
+      align-items: center;
     }
   
     .login-container h3 {
