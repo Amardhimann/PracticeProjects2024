@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: #343a40;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns:80px 400px 1fr 250px;
+    grid-template-rows:80px 1fr;
+}
+nav,section,main,aside{
+    padding: 24px;
+}
+button{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5f3dc4;
+    border: none;
+    cursor:pointer;
+    color: #fff;
+    padding: 8px 12px;
+}
+button:nth-child(5){
+    background-color: rgba(167, 25, 25, 0.941);
+    margin-left: auto;
+}
+nav{
+    background-color: #343a40;
+    grid-row: 1 /-1;
+    color: white;
+}
+menu{
+    background-color: violet;
+    grid-column: 2 /-1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 40px;
+}
+section{
+    background-color: blue;
+    overflow: scroll;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.email{
+    height: 96px;
+    background-color: silver;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+main{
+    background-color:silver;
+}
+aside{
+    background-color: white;
+}
