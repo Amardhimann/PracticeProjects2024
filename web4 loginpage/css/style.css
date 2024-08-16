@@ -170,4 +170,11 @@ footer a:hover {
 input::placeholder {
     font-size: 12px;
 }
+    .login-container {
+    padding: 1.5rem;
+    width: 74%;
+}
+footer p {
+    font-size: 12px;
+}
 }
